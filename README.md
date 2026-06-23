@@ -51,6 +51,6 @@ La consulta usa cuatro funciones SQL, cada columna renombrada con `AS`:
 | Ana Martínez | 13 | ANA | yahoo.com |
 | Luis Ramírez | 13 | LUIS | empresa.com |
 
-> **Nota técnica:** `LENGTH()` mide la longitud en **bytes**. Como las vocales acentuadas (í, é, ó...) ocupan 2 bytes en UTF-8, suman 1 unidad extra (por eso "Juan Pérez" da 11 y no 10). Si se quisiera contar **caracteres** exactos, se usaría `CHAR_LENGTH()`.
+![Resultado de la consulta](IMG/TABLA%20DE%20DATOS.png)
 
-src = 
+> **Nota técnica:** `LENGTH()` mide la longitud en **bytes**. Como las vocales acentuadas (í, é, ó...) ocupan 2 bytes en UTF-8, suman 1 unidad extra (por eso "Juan Pérez" da 11 y no 10). Si se quisiera contar **caracteres** exactos, se usaría `CHAR_LENGTH()`.
